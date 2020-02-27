@@ -7,13 +7,18 @@ public class Problem6 {
     public static void test() {
 
         DefaultChooser dc = new DefaultChooser();
-        String[] strs = new String[]{"9999", "8888", "7777", "6666", "5555", "4444", "3333", "2222,", "1111"};
+        String[] strs = new String[]{"1111", ",2222", "3333", "4444", "5555", "6666", "7777", "8888", "9999"};
 
+        System.out.println("Expect [1111, 2222]");
         System.out.println(Arrays.deepToString(dc.choose(strs[0], strs[1])));
+        System.out.println();
 
         BadJudge bj = new BadJudge(dc);
+        System.out.println("Expect [2222, 1111]");
         System.out.println(Arrays.deepToString(bj.choose(strs[0], strs[1])));
+        System.out.println();
 
+        System.out.println("Expect 9999");
         System.out.println(maxString(strs));
     }
 
