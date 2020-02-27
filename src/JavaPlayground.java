@@ -16,20 +16,20 @@ import sp20.dis.examprep.MaxPool;
 
 public class JavaPlayground {
     public static void main(String[] args) {
-        //Exceptions.run();
-        //G.run();
-        //Triangularize.triangularizeTests();
-        //Sum.run("123", "456");
-        //TemplTest.run();
-        //Distribute.test();
-        //MaxPool.test();
-        //Combine.test();
-        //Problem1.runPartA();
-        //Problem1.runPartB();
-        //Problem1.runPartC();
-        //Problem2.test();
-        //Problem3.test();
-        //Problem5.test();
-        Problem6.test();
+        kartikkapur.midterm1.Problem1.run();
+        //Top x = new Bottom();
+        //x.f();
+    }
+}
+
+class Top {
+    void f() {
+        System.out.println("Top");
+    }
+}
+
+class Bottom extends Top {
+    void f() {
+        System.out.println("Bottom");
     }
 }
