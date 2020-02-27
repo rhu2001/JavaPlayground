@@ -7,6 +7,7 @@ import fa11.midterm1.TemplTest;
 import fa17.midterm1.Problem1;
 import fa17.midterm1.Problem2;
 import fa17.midterm1.Problem3;
+import fa17.midterm1.Problem5;
 import sp18.midterm1.Combine;
 import sp20.dis.examprep.MaxPool;
 
@@ -30,6 +31,7 @@ public class JavaPlayground {
         //Problem1.runPartB();
         //Problem1.runPartC();
         //Problem2.test();
-        Problem3.test();
+        //Problem3.test();
+        Problem5.test();
     }
 }
