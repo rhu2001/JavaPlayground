@@ -59,7 +59,7 @@ public class Problem1 {
 
     /** Part (c)
      *
-     * Debug runPartC() for box-and-pointer
+     * Add breakpoint at System.out.println(A.toString()); debug runPartC() for box-and-pointer
      */
     public static void runPartC() {
         IntList A = IntList.list(1, 2, 3, 4, 5, 6, 7, 8);

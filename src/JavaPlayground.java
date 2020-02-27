@@ -5,6 +5,7 @@ import fa11.midterm1.Distribute;
 import fa11.midterm1.Sum;
 import fa11.midterm1.TemplTest;
 import fa17.midterm1.Problem1;
+import fa17.midterm1.Problem2;
 import sp18.midterm1.Combine;
 import sp20.dis.examprep.MaxPool;
 
@@ -26,6 +27,7 @@ public class JavaPlayground {
         //Combine.test();
         //Problem1.runPartA();
         //Problem1.runPartB();
-        Problem1.runPartC();
+        //Problem1.runPartC();
+        Problem2.test();
     }
 }
