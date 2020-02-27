@@ -17,18 +17,23 @@ import sp20.dis.examprep.MaxPool;
 public class JavaPlayground {
     public static void main(String[] args) {
         kartikkapur.midterm1.Problem1.run();
-        //Top x = new Bottom();
-        //x.f();
+        Top x = new Bottom();
+        System.out.println(x.s);
+        System.out.println(((Bottom) x).s);
     }
 }
 
 class Top {
+    String s = "top";
+
     void f() {
         System.out.println("Top");
     }
 }
 
 class Bottom extends Top {
+    String s = "bottom";
+
     void f() {
         System.out.println("Bottom");
     }
